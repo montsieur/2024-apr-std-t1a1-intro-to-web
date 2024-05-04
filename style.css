@@ -1,4 +1,50 @@
 h1{
-    color: cornflowerblue;
+    color: yellow;
+    background-color: black;
+    padding: 20px;
 }
 
+h2{
+    color: red;
+    background-color: darkblue;
+    margin: 10px;
+}
+
+/*article > p {
+    font-size: 20px;
+}*/
+
+.article_p {
+    font-size: 25px;
+}
+
+.article_p2 {
+    font-size: 1.5rem;
+}
+
+/*#footer > p {
+    text-align: center;
+    background-color: lightgrey;
+}*/
+
+img{
+    max-width: 10vw
+}
+
+ul {
+    background-color: tan;
+}
+
+li {
+    background-color: lightgreen;
+}
+
+li:nth-child(2n) {
+    color: white;
+    background-color: blue;
+}
+
+#footer_p {
+    text-align: center;
+    background-color: lightgrey; 
+}
